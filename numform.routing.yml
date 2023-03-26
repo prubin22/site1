@@ -1,0 +1,7 @@
+numform.content:
+  path: '/numform'
+  defaults:
+    _controller: '\Drupal\NumForm\Controller\HelloController::content'
+    _title: 'Number Form'
+  requirements: 
+    _permission: 'access content'
