@@ -42,7 +42,7 @@ class NumForm extends FormBase {
       $form['result'] = [
         '#type' => 'markup',
         '#markup' => $this->t('The sum of num1 and num2 is @sum', [
-          '@sum' => $sum,
+        'sum' => $sum,
         ]),
       ];
     }
